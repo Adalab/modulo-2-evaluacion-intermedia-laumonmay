@@ -19,9 +19,9 @@ const numeroAleatorio = getRandomNumber (100);
 
 function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
-    console.log(getRandomNumber);
+    
 }
-
+console.log(numeroAleatorio);
 const cambiarPista = () => {
 
 };
@@ -46,7 +46,10 @@ const pista = (event) => {
 };
 
 button.addEventListener('click', (event) => {
+
     const numeroUsuaria = numberInput.value;
+
+    if (numeroUsuaria < numeroAleatorio)
     
 });    /// al hacer click
 
