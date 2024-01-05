@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./styles/main.css">
     <title>Adivinar el número</title>
-</head>
-<body>
+</head> 
+
+<!--1. Crear una maquetación mínima con el input, el botón, el espacio para pistas y el espacio para el
+contador de intentos.
+-->
+<body style="text-align: center;">
     <header>
-        <h1>Adivina el número</h1>
+        <h1 >Adivina el número</h1>
     </header>
+
+
     <main>
         <form action="#" class="form">
-
-            <p>Introduce aquí tu número:</p>
-
-            <input  class="number js_numberInput" type="number" id="" placeholder="">
-            <input type="button" value="Prueba" class="botton js_button">
-
+        <label for="userNumber">Introduce aquí tu número:</label>
+        <input type="number" id="userNumber" placeholder="Ej: 14" class="number js_numberInput"/>
+        <input type="button" value="Prueba" class="botton js_button">
         </form>
 
-        <p class="text"> Pista: Escribe el número y dale a Prueba</p>
+        <p class="clue js_clue"> Pista: Escribe el número y dale a Prueba</p>
 
-        <p class="text"> Número de intentos: 0</p>
-        
-
-
+        <p class="opportunities js_opportunitiesBox"> Número de intentos: 0</p> 
     </main>
     
 

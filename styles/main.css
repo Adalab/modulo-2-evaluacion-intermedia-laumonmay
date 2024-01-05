@@ -10,7 +10,7 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .number {
@@ -18,20 +18,34 @@ body {
     border: none;
     background-color: rgb(180, 177, 177);;
     margin-top: 10px;
-    height: 30px;
+    height: 25px;
+    width: 70px;
+    text-align: center;
 }
 
 .botton {
     background-color: rgb(14, 203, 203);
     color: white;
     border: none;
+    font-weight: 600;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
     margin-top: 10px;
+    width: 100px;
 }
 
-.text {
-    border: solid 3px rgb(180, 177, 177);
+.clue {
+    border: double 3px rgb(180, 177, 177);
     margin: 5px 0px 5px 0px;
-    padding: 5px 5px 5px 5px;
+    padding: 12px 5px 5px 5px;
+    height: 50px;
+   
+}
+
+.opportunities {
+    font-size: small;
+    width: 150px;
+    border: white 8px groove;
+    margin: 5px 0px 5px 0px;
+    padding: 0px 5px 3px 5px;
 }
